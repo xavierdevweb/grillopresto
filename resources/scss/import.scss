@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import 'components/navbar';
+@import 'components/sub-navbar';
+@import 'components/card';
+@import 'bootstrap-custom';
+
+@import './bootstrap/scss/bootstrap'; // Cela import : . cela signifie va dans le dossier node_modules et ensuite dans bootstrap..
+@import 'style';
+@import 'user-ticket';
+@import 'admin-ticket';
+@import 'user-order';
+@import 'home';
+@import 'menu';
+@import 'singleMeal';
+@import 'cart';;
+@import 'plat';
+@import 'footer';
+@import 'faq';
+@import 'menuAddAdmin';
+@import 'menuSearchAdmin';
+@import 'menuEditAdmin';
+@import 'mealIndexAdmin';
+
+

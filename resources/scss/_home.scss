@@ -1,0 +1,510 @@
+/* ACCUEIL */
+
+// MOBILE VIEW
+*,
+*:before,
+*:after {
+    box-sizing: border-box !important;
+}
+
+
+
+
+// en haut de 1100 ca sapplique
+
+.div_home_page_middlewave {
+
+    padding: 0 10px !important;
+
+    p {
+        text-align: center;
+        width: 100% !important;
+        padding: 0 10px 62px 10px !important;
+        font-size: 1.5rem !important;
+    }
+}
+
+
+.home {
+
+    .wave_top_section {
+        width: 100vw;
+        position: relative;
+        max-height: 900px;
+
+
+
+        .over_wave_top {
+            padding: 0 5%;
+            padding-top: 2rem;
+
+            h1 {
+                font-size: 4rem;
+            }
+
+            &>div {
+                display: flex;
+                width: 100%;
+                flex-wrap: wrap;
+
+                h1 {
+                    color: white;
+                    font-weight: 700;
+                }
+
+                p {
+                    width: 100%;
+                    font-size: 1.3rem;
+                    font-family: 'Montserrat', sans-serif;
+                    color: white;
+
+                }
+
+            }
+        }
+
+
+        .saladeImg {
+            position: absolute;
+            width: 50%;
+            max-width: 675px;
+            bottom: 0;
+            right: 2%;
+        }
+
+
+
+    }
+
+
+
+    .home_grid_card {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2%;
+
+    }
+
+
+    .engage {
+        display: none;
+    }
+
+    .wave_middle_section {
+        position: relative;
+
+        .chef_img {
+            z-index: 1;
+            position: absolute;
+            top: -2.9rem;
+            right: 0;
+            max-width: 65rem;
+            width: 60vw;
+        }
+
+        .salade2_img {
+            z-index: 1;
+            max-width: 40rem;
+            width: 40vw;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        .svg_top_wave {
+            z-index: -1;
+            transform: translateY(1px);
+        }
+
+        .svg_bottom_wave {
+            z-index: -1;
+            transform: translateY(-1px);
+        }
+
+        &>div {
+
+            padding-top: 2rem;
+            padding-right: 5%;
+
+            p {
+                padding-top: 2rem;
+                font-size: 2rem;
+                width: 60%;
+            }
+        }
+
+    }
+
+    .ship_range_section {
+        background-color: $pink;
+        margin-top: 10rem;
+        position: relative;
+
+
+        &>div {
+            padding: 4rem 2rem;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+
+
+        form {
+            width: 100%;
+
+            input {
+                height: 3rem;
+                border-radius: 15px;
+                border: none;
+                box-shadow: none;
+            }
+
+            label {
+                font-size: 1.2rem;
+            }
+        }
+
+
+
+        img {
+            width: 40vw;
+            max-width: 550px;
+            position: absolute;
+            top: -4rem;
+            right: 0rem;
+        }
+
+    }
+
+    .card_section {
+        margin-bottom: 10rem;
+    }
+
+    .offer_section {
+
+        padding: 4rem 2rem;
+
+        ul {
+            font-size: 3vw;
+
+            li {
+                list-style: none;
+            }
+        }
+
+        a {
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+            max-width: 35rem;
+        }
+    }
+
+
+}
+
+#btn-login {
+    width: 100% !important;
+}
+
+
+// DESKTOP VIEW
+
+@media (min-width: 768px) {
+    .home {
+        .wave_top_section {
+            order: 1;
+
+            h1.main-title {
+                font-size: 6rem;
+            }
+
+            &>div {
+                padding-left: 5rem;
+            }
+        }
+
+        .home_grid_card {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: min-content;
+            gap: 5%;
+
+        }
+
+        .wave_middle_section {
+            order: 3;
+        }
+
+        .card_section {
+            order: 4;
+            margin-bottom: 0;
+        }
+
+        .ship_range_section {
+            order: 5;
+        }
+
+        .offer_section {
+            order: 6;
+        }
+
+        .engage {
+            padding: 0 5%;
+            display: block;
+            order: 2;
+            margin-bottom: 7rem;
+
+            i {
+                font-size: 5rem;
+            }
+
+
+
+            .engage_container {
+                gap: 6rem;
+
+                &>div {
+                    width: 30%;
+                }
+
+                p {
+                    font-size: 1.3rem;
+                }
+
+                .fa-carrot {
+                    color: #F05A2C;
+                }
+
+                .fa-truck-fast {
+                    color: black;
+                }
+
+                .fa-hand-holding-dollar {
+                    color: #3C814F;
+                }
+
+            }
+        }
+
+        .ship_range_section {
+
+            padding-left: 15%;
+
+            &>div {
+                display: flex;
+                padding: 4rem 0;
+                flex-direction: column;
+                justify-content: center;
+                gap: 1rem;
+
+                h2 {
+                    text-align: start;
+                }
+
+                h3 {
+                    font-size: 1.3rem;
+                }
+
+
+
+
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    width: 75%;
+
+                    button {
+                        width: 75% !important;
+                    }
+                }
+
+
+            }
+
+            img {
+                position: initial;
+            }
+
+        }
+
+        .offer_section {
+            .text_container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                li {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+    }
+
+    #btn-login,
+    #submit_oAuth_register {
+        max-width: 15rem !important;
+    }
+
+
+    .div_home_page_middlewave {
+        p {
+            padding: 4rem 0 22% 0 !important;
+            font-size: 2rem !important;
+            width: 60% !important;
+            max-height: 100px !important;
+            text-align: unset;
+            z-index: 2;
+        }
+    }
+
+    
+    .saladeImg {
+        position: absolute;
+        width: 50%;
+        max-width: 675px;
+        bottom: -6% !important;
+        right: 2%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .div_home_page_middlewave {
+        p {
+            padding: 3.7rem 0 5rem 0 !important;
+            font-size: 2rem !important;
+            width: 60% !important;
+            max-height: 100px !important;
+            z-index: 2;
+        }
+    }
+
+    .text_container {
+        ul {
+            margin-top: 3rem;
+            margin-right: auto;
+        }
+
+        .a_menu_home {
+            margin-top: 7rem !important;
+        }
+    }
+
+    .ship_range_section {
+        padding-left: 10% !important;
+    }
+
+
+    .saladeImg {
+        position: absolute;
+        width: 50%;
+        max-width: 675px;
+        bottom: -1% !important;
+        right: 2%;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 483px) {
+    .ship_range_section {
+
+        img {
+            position: absolute;
+            top: -33% !important;
+        }
+    }
+
+}
+
+
+@media (min-width: 571px) {
+    .ship_range_section {
+
+        img {
+            position: absolute;
+            top: -38% !important;
+        }
+    }
+
+}
+
+@media (min-width: 700px) {
+    .ship_range_section {
+
+        img {
+            position: absolute;
+            top: -10rem !important;
+        }
+    }
+
+}
+
+@media (min-width: 700px) {
+    .ship_range_section {
+
+        img {
+            position: absolute;
+            top: -10rem !important;
+        }
+    }
+
+}
+
+
+
+
+.icon-shopping-cart-meal {
+    font-size: 18px !important;
+}
+
+
+
+@media (min-width: 1175px) {
+
+
+    // .saladeImg {
+    //     position: absolute;
+    //     width: 50vw !important;
+    //     max-width: 675px;
+    //     bottom: -11% !important;
+    //     right: 2%;
+    // }
+
+    .topWave {
+        position: relative;
+        top: -100px;
+    }
+}
+
+
+@media (min-width: 1500px) {
+    .topWave {
+        position: relative;
+        top: -200px;
+    }
+
+    .menu-home-link-div {
+        z-index: 99;
+    }
+
+    .saladeImg {
+        position: absolute;
+        width: 50vw !important;
+        max-width: 675px;
+        bottom: -70px !important;
+        right: 2%;
+    }
+}
+
+.topWave {
+    transform: translateY(-2px) !important;
+}

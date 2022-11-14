@@ -1,0 +1,40 @@
+.adminRepasIndex {
+    max-width: 1200px;
+    .nav_container {
+        li {
+            flex: 1;
+        }
+    }
+
+    &>ul {
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        li {
+            list-style: none;
+            padding: 1rem;
+            border-bottom: 1px solid black;
+            border-right: 1px solid black;
+        }
+        
+    }
+}
+
+.adminRepasIndex > ul > li:nth-of-type(odd) {
+    border-left: 1px solid black;
+}   
+
+.input-padding{
+    padding: 6px 6px 6px 10px!important;
+
+}
+
+.th_repas_all:first-of-type{
+    border-radius: 15px 0 0 0;
+    padding-left: 35px !important;
+}
+
+.th_repas_all:last-of-type{
+    border-radius: 0 15px 0 0;
+    padding: 16px 16px 16px 0px;
+}

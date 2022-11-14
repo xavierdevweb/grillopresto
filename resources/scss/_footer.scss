@@ -1,0 +1,11 @@
+.btn-infolettre {
+    position: absolute;
+    left: -80px;
+    // width: 40%;
+}
+
+@media (min-width: 1200px) {
+    .btn-infolettre {
+        left: -129px;
+    }
+}

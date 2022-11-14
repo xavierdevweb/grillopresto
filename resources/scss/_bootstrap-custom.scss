@@ -1,0 +1,136 @@
+$primary: #B40500;
+$info: #485CA4;
+$secondary: #0F0F0F;
+$btn-font-size: 1.2rem;
+$btn-padding-x: 1.5rem;
+
+$grid-breakpoints: (
+  sm: 0px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.form-control {
+  border-radius: 15px !important;
+  padding: 10px !important;
+  border: 1px solid rgb(214, 214, 214) !important;
+}
+
+.form-control-file {
+  border-radius: 15px !important;
+  padding: 10px !important;
+  border: 1px solid rgb(214, 214, 214) !important;
+}
+
+
+// math.div($widthPercent, 100) or calc($widthPercent / 100)
+$widthPercentage: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100;
+
+@each $widthPercent in $widthPercentage {
+  .w-#{$widthPercent} {
+    $width: calc($widthPercent / 100);
+    width: $width;
+  }
+}
+
+$widthPercentage: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100;
+
+@each $widthPercent in $widthPercentage {
+  .max-w-#{$widthPercent} {
+    $width: calc($widthPercent / 100);
+    max-width: $width;
+  }
+}
+
+.bg-ultra-light {
+  background-color: #fafafac8;
+}
+
+.w-200px {
+  width: 250px;
+  margin: auto;
+}
+
+.w-300px {
+  width: 300px;
+  margin: auto;
+}
+
+.mw-250px {
+  max-width: 250px;
+  margin: auto;
+}
+
+.mw-300px {
+  max-width: 300px;
+  margin: auto;
+}
+
+.mw-600px {
+  max-width: 600px;
+  margin: auto;
+}
+
+.mw-650px {
+  max-width: 650px;
+  margin: auto;
+}
+
+.mw-700px {
+  max-width: 700px;
+  margin: auto;
+}
+
+.mw-750px {
+  max-width: 750px;
+  margin: auto;
+}
+
+.mw-800px {
+  max-width: 800px;
+  margin: auto;
+}
+
+.mw-850px {
+  max-width: 850px;
+  margin: auto;
+}
+
+.mw-875px {
+  max-width: 875px;
+  margin: auto;
+}
+
+.mw-900px {
+  max-width: 900px;
+  margin: auto;
+}
+
+.mw-950px {
+  max-width: 950px;
+  margin: auto;
+}
+
+.mw-955px {
+  max-width: 955px;
+  margin: auto;
+}
+
+.mw-1000px {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.mw-1075px {
+  max-width: 1075px !important;
+  margin: auto;
+}
+
+
+

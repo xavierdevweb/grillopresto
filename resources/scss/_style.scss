@@ -1,0 +1,160 @@
+$pink: #FFD1D1;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+// ===============================================
+// CECI FAIT EN SORTE QUE IL NY AI PAS DESPACE VIDE DANS LES PAGES TROP COURTE
+// FLEX WRAPPER EST APPLIQUE SUR LE MAIN QUI AURA UNE HAUTEUR DE 52% BASE SUR LA HAUTEUR DE 100VH DU BODY
+body {
+    min-height: 100vh;
+}
+
+.displayNone {
+    display: none !important;
+}
+
+
+// .flex-wrapper {
+//     display: flex;
+//     min-height: 52%;
+//     flex-direction: column;
+//     align-items: center;
+// }
+
+// ===============================================
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#btn-login,
+#submit_oAuth_register {
+    max-width: 15rem !important;
+}
+
+.fa-cart-shopping {
+    font-size: 25px !important;
+}
+
+.fa-user {
+    font-size: 25px !important;
+}
+
+@mixin border-radius($arrondissement) {
+    -moz-border-radius: $arrondissement;
+    -webkit-border-radius: $arrondissement;
+    -ms-border-radius: $arrondissement;
+    border-radius: arrondissement;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+}
+
+.h2_register {
+    font-size: 16px;
+}
+
+.h2_oauth_register {
+    font-size: 16px;
+}
+
+
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    max-width: 1920px;
+}
+
+footer {
+    background-color: #1f1f1f;
+
+    h3 {
+        font-weight: 300;
+    }
+}
+
+.logo img {
+    width: 32px;
+}
+
+
+.btn-rounded {
+    @include border-radius(20px);
+    padding: 8px 0px;
+}
+
+
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-family: 'Inter', sans-serif;
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-family: 'Inter', sans-serif;
+        font-size: 2rem;
+    }
+
+    .container {
+        width: 75%;
+    }
+
+    .h2_oauth_register {
+        font-size: 2rem;
+    }
+}
+
+
+
+.ccc {
+    background-color: rgb(223, 223, 223)
+}
+
+.br-tl-10px {
+    border-radius: 10px 0 0 0;
+}
+
+.br-tr-10px {
+    border-radius: 0 10px 0 0;
+}
+
+.minw-235px {
+    min-width: 236px;
+}
+
+
+.small_text_custom {
+    font-size: 0.75rem !important;
+}
+
+.w12px{
+    width: 12px;
+}
+
+.zindex-10{
+    z-index: 10;
+}

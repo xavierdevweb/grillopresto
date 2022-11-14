@@ -1,0 +1,41 @@
+.admin_search_menu {
+    max-width: 1000px;
+    width: 100%;
+
+    form {
+
+        font-size: 1.5rem;
+
+        gap: 1rem;
+
+        &>div {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        select {
+            padding: 0.5rem 1rem;
+        }
+    }
+
+    .container_menu {
+        a {
+            font-size: 1.5rem;
+            background: none;
+            border: none;
+            box-shadow: none;
+        }
+        .meals_menu_container {
+            &>div {
+                border-top: 0.5px solid #cbcbcb;
+                border-bottom: 0.5px solid #cbcbcb;
+            }
+        }
+        
+        .header_container {
+            color: white;
+            border-radius: 15px 15px 0 0;
+        }
+    }
+}

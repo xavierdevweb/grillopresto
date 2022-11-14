@@ -1,0 +1,96 @@
+.table-striped {
+    td {
+        padding: 8px;
+        background-color: rgb(240, 240, 240);
+    }
+}
+
+.div-head-comments {
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.span-date-msg {
+    font-size: 10px;
+    color: rgb(145, 145, 145);
+}
+
+.p-comments {
+    margin-bottom: 1px;
+}
+
+.admin-bubble {
+    background-color: rgb(235, 235, 235);
+}
+
+.user-bubble {
+    background-color: rgb(255, 230, 230);
+}
+
+.close-ticket {
+    width: 21px;
+    height: 21px;
+}
+
+#divMsg {
+    height: 550px !important;
+}
+
+.div-useless {
+    height: 25px;
+}
+
+
+.table-tickets {
+    tr {
+        border: none !important;
+    }
+
+    .red-row {
+        background-color: #ffdfdf;
+    }
+
+    td {
+        background-color: inherit;
+    }
+
+    tr:last-of-type {
+        td:first-of-type {
+            border-radius: 0 0 0 10px;
+        }
+
+        td:last-of-type {
+            border-radius: 0 0 10px 0;
+        }
+    }
+}
+
+.max-w-80{
+    max-width: 80%;
+}
+
+
+@media (min-width: 768px) {
+
+    // cant use %.. @extend in @media queries
+    .msg {
+        max-width: 65%;
+    }
+
+    #btnCloseTicket {
+        max-width: 40%;
+    }
+
+    #btnSubmitMessage {
+        max-width: 40%;
+    }
+
+    .btn-scale-press:hover {
+        transform: scale(0.99);
+    }
+
+    #divMsg {
+        height: 750px !important;
+    }
+
+}

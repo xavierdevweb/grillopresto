@@ -1,0 +1,76 @@
+.menu_edit_admin {
+    max-width: 1000px;
+    width: 100%;
+
+    form {
+
+        font-size: 1.5rem;
+        align-items: center;
+
+        gap: 1rem;
+
+        .header_container {
+            border-radius: 15px 15px 0 0;
+        }
+
+        .checkBox_container {
+            input {
+                opacity: 0;
+                position: absolute;
+                cursor: default;
+            }
+        }
+
+        .meal_div_container {
+            gap: 0;
+
+            .adminMealDiv {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem 0.5rem;
+                border-top: 0.5px solid #cbcbcb;
+                border-bottom: 0.5px solid #cbcbcb;
+    
+                button {
+                    background: none;
+                    border: none;
+                    box-shadow: none;
+                }
+            }
+        }
+
+        
+
+        &>div {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        select {
+            padding: 0.5rem 1rem;
+        }
+    }
+
+    .container_menu {
+        a {
+            font-size: 1.5rem;
+            background: none;
+            border: none;
+            box-shadow: none;
+        }
+        .meals_menu_container {
+            &>div {
+                border-top: 0.5px solid #cbcbcb;
+                border-bottom: 0.5px solid #cbcbcb;
+            }
+        }
+        
+        .header_container {
+            color: white;
+            border-radius: 15px 15px 0 0;
+        }
+    }
+}
+

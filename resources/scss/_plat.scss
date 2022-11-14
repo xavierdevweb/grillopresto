@@ -1,0 +1,38 @@
+.plat {
+
+    .portion-mobile {
+        padding: 0.3rem !important;
+    }
+
+    max-width: 750px;
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    --bs-btn-padding-x:0 !important;
+
+
+    .allergenImg {
+        max-width: 35px;
+    }
+
+    .cardRepas {
+        max-width: 750px !important;
+    }
+}
+
+.banner {
+    background-color: $pink;
+}
+
+@media (min-width: 768px) {
+    .plat {
+        .portion-mobile {
+            padding:0.5rem 1.5rem !important;
+        }
+  
+    }
+  
+  
+  }

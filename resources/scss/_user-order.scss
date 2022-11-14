@@ -1,0 +1,45 @@
+.custom-table-orders {
+
+    .bg-high-light {
+        background-color: #F2F2F2;
+        color: rgb(33, 37, 41);
+    }
+
+    .user-order-accordion {
+
+        &:hover {
+            background-color: rgb(236, 236, 236);
+        }
+
+        & p {
+            margin-bottom: 0;
+        }
+
+        &:nth-child(2) {
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        &:last-of-type {
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        .accordion-button::after {
+            margin: 0;
+            border: 0 !important;
+            max-width: 132.68px !important;
+            // background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 16' fill='0F0F0F'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+        }
+
+        .accordion-button:focus {
+            --bs-accordion-btn-focus-box-shadow: 0 !important;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .order_td {
+        max-width: 50px;
+    }
+}

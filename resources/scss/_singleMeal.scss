@@ -1,0 +1,59 @@
+.singleMeal {
+
+    img {
+        border-radius: 25px;
+    }
+
+    .topSection {
+        width: 100%;
+    }
+
+    .mealSection {
+        padding: 2rem 1rem;
+    }
+
+    .allergenContainer {
+        padding: 5px;
+        display: flex;
+        gap: 1rem;
+
+        .allergenItem {
+            list-style: none;
+
+            i {
+
+                font-size: 3rem;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .singleMeal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .mealSection {
+            max-width: 50rem;
+        }
+    }
+
+}
+
+%fsmax18px {
+    font-size: 32px !important;
+}
+
+.fa-peanuts,
+.fa-cow,
+.fa-egg,
+.fa-shrimp {
+    @extend %fsmax18px;
+}
+
+.fa-peanuts-custom{
+    width: 34px;
+}
