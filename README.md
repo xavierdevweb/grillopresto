@@ -12,5 +12,10 @@ Ceci est un restaurant fictif que j'ai créé avec trois autres collègues.
 
 <img width="180px" src="./inc/inscription.png" />
 
+### Commande
+
+<img width="180px" src="./inc/Commande1.png" />
+<img width="180px" src="./inc/Commande2.png" />
+
 <!-- DO NOT USE FOR COMMERCIAL PURPOSES.
 © 2022 GRILL-O-PRESTO DEVELOPERS -->
