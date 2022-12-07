@@ -1,4 +1,12 @@
-Ceci est un restaurant fictif que j'ai créé avec trois autres collègues.
+Ceci est un restaurant fictif que j'ai créé avec trois autres collègues. Il dispose de plusieurs pages :
+
+Client :
+
+Accueil, commandes, tickets, FAQ, etc.
+
+Admin :
+
+Gestion utilisateurs, gestion administrateur, gestion des tickets, gestion de la FAQ, création des menus et des repas, etc.
 
 ### Accueil
 
@@ -12,7 +20,7 @@ Ceci est un restaurant fictif que j'ai créé avec trois autres collègues.
 
 <img width="180px" src="./inc/inscription.png" />
 
-### Commande
+### Commandes
 
 <img align="left" width="180px" src="./inc/Commande1.png" />
 <img width="180px" src="./inc/Commande2.png" />
